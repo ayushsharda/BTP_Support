@@ -65,32 +65,32 @@ const Login = () => {
           Hello! <span className="text-white">Welcome</span> Back
         </h3>
 
-        <form className="py-4 md:py-0" onSubmit={submitHandler}>
-          <div className="mb-5">
+        <form className="py-4 md:py-0 space-y-8" onSubmit={submitHandler}>
+          <div className="px-4 mx-auto max-w-screen-md">
             <input
               type="email"
               placeholder="Enter Your Email"
               name="email"
               value={formData.email}
               onChange={handleInputChange}
-              className="w-full py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+              className="form__input mt-1"
               required
             />
           </div>
 
-          <div className="mb-5">
+          <div className="px-4 mx-auto max-w-screen-md">
             <input
               type="password"
               placeholder="Password"
               name="password"
               value={formData.password}
               onChange={handleInputChange}
-              className="w-full py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+              className="form__input mt-1"
               required
             />
           </div>
 
-          <div className="mt-7">
+          <div className="px-4 mx-auto max-w-screen-md">
             <button
               disabled={loading && true}
               type="submit"

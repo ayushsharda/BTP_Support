@@ -98,7 +98,7 @@ const Signup = () => {
           {/*   sign up form   */}
           <div className="rounded-l-lg lg:pl-16 py-10">
             <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
-              Create an <span className="text-white">account</span>
+              Create your <span className="text-white">account and get connected with us!</span>
             </h3>
 
             <form onSubmit={submitHandler}>
@@ -109,7 +109,7 @@ const Signup = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                  className="form__input mt-1"
                   required
                 />
               </div>
@@ -120,7 +120,7 @@ const Signup = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                  className="form__input mt-1"
                   required
                 />
               </div>
@@ -131,7 +131,7 @@ const Signup = () => {
                   name="password"
                   value={formData.password}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                  className="form__input mt-1"
                   required
                 />
               </div>
@@ -142,7 +142,7 @@ const Signup = () => {
                   name="confirmPassword"
                   value={formData.confirmPassword}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                  className="form__input mt-1"
                   required
                 />
               </div>
@@ -154,7 +154,7 @@ const Signup = () => {
                     name="regNum"
                     value={formData.regNum}
                     onChange={handleInputChange}
-                    className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                    className="form__input mt-1"
                     required
                   />
                 </div>
@@ -170,7 +170,7 @@ const Signup = () => {
                   name="street"
                   value={formData.street}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                  className="form__input mt-1"
                   required
                 />
               </div>
@@ -181,7 +181,7 @@ const Signup = () => {
                   name="city"
                   value={formData.city}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                  className="form__input mt-1"
                   required
                 />
               </div>
@@ -192,7 +192,7 @@ const Signup = () => {
                   name="state"
                   value={formData.state}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+                  className="form__input mt-1"
                   required
                 />
               </div>
@@ -204,7 +204,7 @@ const Signup = () => {
                     name="role"
                     value={formData.role}
                     onChange={switchRoleHandler}
-                    className="text-textColor font-semibold text-[15px] leading-7 px-4 py-3 focus:outline-none"
+                    className="form__input mt-1"
                   >
                     <option value="patient">Patient</option>
                     <option value="doctor">Mentor</option>
@@ -217,7 +217,7 @@ const Signup = () => {
                     name="gender"
                     value={formData.gender}
                     onChange={handleInputChange}
-                    className="text-textColor font-semibold text-[15px] leading-7 px-4 py-3 focus:outline-none"
+                    className="form__input mt-1"
                     required
                   >
                     <option value="">Select</option>

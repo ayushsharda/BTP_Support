@@ -48,7 +48,7 @@ const DoctorAbout = () => {
               Ayush Sharda
             </span>
           </h3>
-          <p className="text__para" text= "white">
+          <p className="text__para text-black">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius
             assumenda corrupti at fugiat ipsum odio laudantium quisquam
             veritatis consectetur velit illo ullam animi necessitatibus vero
@@ -56,6 +56,23 @@ const DoctorAbout = () => {
             Necessitatibus et non sapiente sit distinctio, repellat illo totam
             perspiciatis, inventore ex assumenda odit natus cumque saepe
             nostrum?
+          </p>
+
+          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">
+            Issues faced 
+          </h3>
+          <p className="text__para text-black">
+            <p>1. Anxiety</p>
+            <p>2. Depression</p>
+            <p>3. Addiction related</p>
+          </p>
+
+          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">
+            Modes of Sessions 
+          </h3>
+          <p className="text__para text-black">
+            <p>Online</p>
+            <p>Offline</p>
           </p>
         </div>
 
@@ -70,11 +87,11 @@ const DoctorAbout = () => {
                 <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
                   {formatDate("09-07-2014")} - {formatDate("05-15-2016")}
                 </span>
-                <p className="text-[15px] leading-6 font-medium text-textColor">
-                  PHD in Surgeon
+                <p className="text-[15px] leading-6 font-medium text-white">
+                  PHD in Psychology
                 </p>
               </div>
-              <p className="text-[14px] leading-5 font-medium text-textColor">
+              <p className="text-[14px] leading-5 font-medium text-white">
                 New Apollo Hospital, New Delhi.
               </p>
             </li>
@@ -83,11 +100,11 @@ const DoctorAbout = () => {
                 <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
                   {formatDate("07-04-2010")} - {formatDate("08-07-2013")}
                 </span>
-                <p className="text-[15px] leading-6 font-medium text-textColor">
-                  PHD in Surgeon
+                <p className="text-[15px] leading-6 font-medium text-white">
+                  PHD in Psychology
                 </p>
               </div>
-              <p className="text-[14px] leading-5 font-medium text-textColor">
+              <p className="text-[14px] leading-5 font-medium text-white">
                 New Apollo Hospital, New Delhi.
               </p>
             </li>
@@ -100,23 +117,23 @@ const DoctorAbout = () => {
           </h3>
 
           <ul className="grid sm:grid-cols-2 gap-[30px] pt-4 md:p-5">
-            <li className="p-4 rounded bg-[#fff9ea]">
-              <span className="text-yellowColor text-[15px] leading-6 font-semibold">
+            <li className="p-4 rounded bg-[#CBC3E3]">
+              <span className="text-white text-[15px] leading-6 font-semibold">
                 {formatDate("07-04-2010")} - {formatDate("08-13-2014")}
               </span>
               <p className="text-[16px] leading-6 font-medium text-textColor">
-                Sr. Surgeon
+                Sr. Psychologist
               </p>
               <p className="text-[14px] leading-5 font-medium text-textColor">
                 New Apollo Hospital, New York.
               </p>
             </li>
-            <li className="p-4 rounded bg-[#fff9ea]">
-              <span className="text-yellowColor text-[15px] leading-6 font-semibold">
+            <li className="p-4 rounded bg-[#CBC3E3]">
+              <span className="text-white text-[15px] leading-6 font-semibold">
                 {formatDate("07-04-2010")} - {formatDate("08-13-2014")}
               </span>
               <p className="text-[16px] leading-6 font-medium text-textColor">
-                Sr. Surgeon
+                Sr. Psychologist
               </p>
               <p className="text-[14px] leading-5 font-medium text-textColor">
                 New Apollo Hospital, New York.
@@ -127,7 +144,7 @@ const DoctorAbout = () => {
 
         <div className="mt-12">
           <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold">
-            Clinic Address
+            Address
           </h3>
 
           <ul className="pt-4 md:p-5">
@@ -136,7 +153,7 @@ const DoctorAbout = () => {
                 <span className="text-irisBlueColor text-[23px] leading-6 font-semibold">
                   Talwandi Circle
                 </span>
-                <p className="mt-2 text-[18px] leading-6 font-medium text-textColor">
+                <p className="mt-2 text-[18px] leading-6 font-medium text-white">
                   Kota, Rajasthan
                 </p>
               </div>

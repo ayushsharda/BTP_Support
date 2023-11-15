@@ -39,7 +39,7 @@ const Home = () => {
               <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
                 <div>
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-white">
-                    30+
+                    20+
                   </h2>
                   <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
                   <p className="text__para text-white">Years of Experience</p>
@@ -56,7 +56,7 @@ const Home = () => {
                     100%
                   </h2>
                   <span className="w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]"></span>
-                  <p className="text__para text-white">Patient Satisfaction</p>
+                  <p className="text__para text-white">People Satisfaction</p>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@ const Home = () => {
             {/*   feature content   */}
             <div className="xl:w-[670px]">
               <h2 className="heading text-white">
-                Book your appointment <br /> anytime.
+                Book your appointment <br /> anytime from anywhere.
               </h2>
               <ul className="pl-4">
                 <li className="text__para text-white">
@@ -251,7 +251,7 @@ const Home = () => {
 
             <div className="w-full md:w-1/2">
               <h2 className="heading text-white">
-                Most questions by our beloved patients
+                Most questions by our beloved Stronger People
               </h2>
               <FaqList />
             </div>
@@ -264,10 +264,10 @@ const Home = () => {
       <section style={{backgroundColor:"#635985"}}>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-white text-center">What our patients say</h2>
+            <h2 className="heading text-white text-center">What our Stronger People say</h2>
             <p className="text__para text-black text-center">
-              World-class care for everyone. Our health System offers unmatched,
-              expert health care.
+              World-class care for everyone. Stronger Together offers unmatched,
+              expert support care.
             </p>
           </div>
           <Testimonial />

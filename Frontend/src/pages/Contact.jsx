@@ -3,15 +3,15 @@ const Contact = () => {
     <section style={{backgroundColor:"#635985"}}>
       <div className="px-4 mx-auto max-w-screen-md">
         <h2 className="heading text-center">Contact Us</h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text__para">
-          Got a technical issue? Want to send feedback about a beta feature? Let
+        <p className="mb-8 lg:mb-16 font-light text-center text__para text-white">
+          Got an issue? Want to send feedback about a feature? Let
           us know.
         </p>
         <form action="#" className="space-y-8">
           <div>
-            <label htmlFor="email" className="form__label">
+            <p htmlFor="email" className="form__label text-white" >
               Your Email
-            </label>
+            </p>
             <input
               type="email"
               id="email"
@@ -20,7 +20,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label htmlFor="subject" className="form__label">
+            <label htmlFor="subject" className="form__label text-white">
               Subject
             </label>
             <input
@@ -31,7 +31,7 @@ const Contact = () => {
             />
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="message" className="form__label">
+            <label htmlFor="message" className="form__label text-white">
               Your Message
             </label>
             <textarea

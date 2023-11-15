@@ -22,13 +22,13 @@ const Feedback = () => {
             </figure>
 
             <div>
-              <h5 className="text-[16px] leading-6 text-primaryColor font-bold">
+              <h5 className="text-[16px] leading-6 text-white font-bold">
                 Bharat Gupta
               </h5>
-              <p className="text-[14px] leading-6 text-textColor">
+              <p className="text-[14px] leading-6 text-black">
                 {formatDate("02-14-2023")}
               </p>
-              <p className="text__para mt-3 font-medium text-[15px]">
+              <p className="text__para mt-3 font-medium text-[15px] text-white">
                 Good services, highly recommended.
               </p>
             </div>
