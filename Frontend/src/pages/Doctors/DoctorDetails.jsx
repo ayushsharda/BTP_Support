@@ -10,7 +10,7 @@ const DoctorDetails = () => {
   const [tab, setTab] = useState("about");
 
   return (
-    <section style={{backgroundColor:"#635985"}}>
+    <section style={{ backgroundColor: "#635985" }}>
       <div className="max-w-[1170px] px-5 mx-auto text-white">
         <div className="grid md:grid-cols-3 gap-[50px] text-white">
           <div className="md:col-span-2 text-white">

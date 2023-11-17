@@ -5,7 +5,7 @@ import Testimonial from "../../components/Testimonial/Testimonial";
 const Doctors = () => {
   return (
     <>
-      <section style={{backgroundColor:"#635985"}} className="bg-[#fff9ea]">
+      <section style={{ backgroundColor: "#635985" }}>
         <div className="container text-center">
           <h2 className="heading">Search your Mentor</h2>
           <div className="max-w-[570px] mt-[30px] mx-auto bg-[#0066ff2c] rounded-md flex items-center justify-between">
@@ -21,7 +21,7 @@ const Doctors = () => {
         </div>
       </section>
 
-      <section style={{backgroundColor:"#635985"}}>
+      <section style={{ backgroundColor: "#635985" }}>
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             {doctors.map((doctor) => (
@@ -31,13 +31,15 @@ const Doctors = () => {
         </div>
       </section>
 
-      <section style={{backgroundColor:"#635985"}}>
+      <section style={{ backgroundColor: "#635985" }}>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">What our Stronger People say</h2>
+            <h2 className="heading text-center">
+              What our Stronger People say
+            </h2>
             <p className="text__para text-center text-white">
-              World-class support for everyone. Our Support System offers unmatched,
-              expert care.
+              World-class support for everyone. Our Support System offers
+              unmatched, expert care.
             </p>
           </div>
           <Testimonial />
