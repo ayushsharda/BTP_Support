@@ -26,8 +26,8 @@ const MyAccount = () => {
   };
 
   return (
-    <section>
-      <div className="max-w-[1170px] px-5 mx-auto">
+    <section style={{backgroundColor:"#635985"}}>
+      <div className="max-w-[1170px] px-5 mx-auto ">
         {loading && !error && <Loading />}
 
         {error && !loading && <Error errMessage={error} />}
@@ -46,10 +46,10 @@ const MyAccount = () => {
               </div>
 
               <div className="text-center mt-4">
-                <h3 className="text-[22px] leading-[30px] text-headingColor font-bold">
+                <h3 className="text-[22px] leading-[30px] text-white font-bold">
                   {userData.name}
                 </h3>
-                <p className="mt-1 text-textColor text-[18px] leading-6 font-medium ">
+                <p className="mt-1 text-white text-[18px] leading-6 font-medium ">
                   {userData.email}
                 </p>
                 {userData.phone && (
@@ -111,27 +111,27 @@ const MyAccount = () => {
                   className={`${
                     tab === "currBookings" &&
                     "bg-primaryColor text-white font-normal"
-                  } p-2 mr-5 px-5 rounded-md text-headingColor font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
+                  } p-2 mr-5 px-5 rounded-md text-white font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
                 >
-                  Upcoming Appointments
+                  Upcoming Bookings
                 </button>
                 <button
                   onClick={() => setTab("settings")}
                   className={`${
                     tab === "settings" &&
                     "bg-primaryColor text-white font-normal"
-                  } py-2 mr-5  px-5 rounded-md text-headingColor font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
+                  } py-2 mr-5  px-5 rounded-md text-white font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
                 >
-                  Profile Settings
+                  My Profile
                 </button>
                 <button
                   onClick={() => setTab("compBookings")}
                   className={`${
                     tab === "compBookings" &&
                     "bg-primaryColor text-white font-normal"
-                  } p-2 px-5 rounded-md text-headingColor font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
+                  } p-2 px-5 rounded-md text-white font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
                 >
-                  Completed Appointments
+                  Completed Bookings
                 </button>
               </div>
 

@@ -105,7 +105,7 @@ const Profile = ({ user }) => {
             name="name"
             value={formData.name}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             required
           />
         </div>
@@ -115,7 +115,7 @@ const Profile = ({ user }) => {
             placeholder="Enter your email"
             name="email"
             value={formData.email}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             aria-readonly
             readOnly
           />
@@ -129,7 +129,7 @@ const Profile = ({ user }) => {
             name="phone"
             value={formData.phone}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
           />
         </div>
         <div className="mb-5">
@@ -140,7 +140,7 @@ const Profile = ({ user }) => {
             min="1"
             value={formData.age}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
           />
         </div>
         <div className="mb-5">
@@ -151,7 +151,7 @@ const Profile = ({ user }) => {
             min="1"
             value={formData.weight}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
           />
         </div>
         <div className="mb-5">
@@ -161,7 +161,7 @@ const Profile = ({ user }) => {
             name="bloodType"
             value={formData.bloodType}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             required
           />
         </div>
@@ -172,7 +172,7 @@ const Profile = ({ user }) => {
             name="street"
             value={formData.street}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             required
           />
         </div>
@@ -183,7 +183,7 @@ const Profile = ({ user }) => {
             name="city"
             value={formData.city}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             required
           />
         </div>
@@ -194,7 +194,7 @@ const Profile = ({ user }) => {
             name="state"
             value={formData.state}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             required
           />
         </div>
@@ -205,7 +205,8 @@ const Profile = ({ user }) => {
             name="password"
             value={formData.password}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
+            required
           />
         </div>
         <div className="mb-5">
@@ -215,7 +216,7 @@ const Profile = ({ user }) => {
             name="confirmPassword"
             value={formData.confirmPassword}
             onChange={handleInputChange}
-            className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
+            className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
           />
         </div>
         <textarea
@@ -234,7 +235,7 @@ const Profile = ({ user }) => {
               name="diabetic"
               value={formData.diabetic}
               onChange={handleInputChange}
-              className="text-textColor font-semibold text-[15px] leading-7 px-4 py-3 focus:outline-none"
+              className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             >
               <option value="">Select</option>
               <option value="Yes">Yes</option>
@@ -248,7 +249,7 @@ const Profile = ({ user }) => {
               name="gender"
               value={formData.gender}
               onChange={handleInputChange}
-              className="text-textColor font-semibold text-[15px] leading-7 px-4 py-3 focus:outline-none"
+              className="mt-5 border border-solid border-[#0066ff61] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
             >
               <option value="">Select</option>
               <option value="male">Male</option>

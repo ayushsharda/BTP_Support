@@ -26,7 +26,7 @@ const UpcomingAppointments = () => {
       )}
 
       {!loading && !error && appointments.length === 0 && (
-        <h2 className="mt-5 text-center leading-7 text-[20px] font-semibold text-primaryColor">
+        <h2 className="mt-5 text-center leading-7 text-[20px] font-extrabold text-white">
           You did not book any mentor yet!
         </h2>
       )}

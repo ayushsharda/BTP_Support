@@ -81,7 +81,7 @@ const Signup = () => {
   };
 
   return (
-    <section style={{backgroundColor:"#635985"}} className="px-5 xl:px-0">
+    <section style={{backgroundColor:"#443C68"}} className="px-5 xl:px-0">
       <div className="max-w-[1170px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/*   img box   */}

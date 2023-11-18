@@ -11,17 +11,18 @@ const navLinks = [
     display: "Home",
   },
   {
-    path: "/doctors",
-    display: "Find a mentor",
+    path: "/contact",
+    display: "Contact",
   },
   {
     path: "/services",
     display: "Services",
   },
   {
-    path: "/contact",
-    display: "Contact",
+    path: "/doctors",
+    display: "Search your mentor",
   },
+  
 ];
 
 const Header = () => {

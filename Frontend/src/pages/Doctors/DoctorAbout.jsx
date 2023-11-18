@@ -42,42 +42,44 @@ const DoctorAbout = () => {
       <section  style={{backgroundColor:"#635985"}}> 
       <div>
         <div>
-          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">
+          <h3 className="text-[25px] leading-[30px] text-headingColor font-bold flex items-center gap-2 text-white">
             About of
-            <span className="text-white font-bold text-[28px] leading-9">
+            <span className="text-black font-extrabold text-[28px] leading-9">
               Ayush Sharda
             </span>
           </h3>
-          <p className="text__para text-black">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius
-            assumenda corrupti at fugiat ipsum odio laudantium quisquam
-            veritatis consectetur velit illo ullam animi necessitatibus vero
-            voluptatum fuga consequuntur, aspernatur perspiciatis adipisci.
-            Necessitatibus et non sapiente sit distinctio, repellat illo totam
-            perspiciatis, inventore ex assumenda odit natus cumque saepe
-            nostrum?
+          <p className="text__para text-white">
+          We provide Stronger system to take care of everyone along with expert and well protected care for everyone.We provide Stronger system to take care of everyone along with expert and well protected care for everyone.We provide Stronger system to take care of everyone along with expert and well protected care for everyone.
           </p>
 
-          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">
+          <h3 className="text-[25px] leading-[30px] text-headingColor font-extrabold flex items-center gap-2 text-white">
             Issues faced 
           </h3>
-          <p className="text__para text-black">
-            <p>1. Anxiety</p>
-            <p>2. Depression</p>
-            <p>3. Addiction related</p>
-          </p>
+          <ol className="text__para text-white">
+            <li> Anxiety</li>
+            <li> Depression</li>
+            <li> Addiction related</li>
+          </ol>
 
-          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">
+          <h3 className="text-[25px] leading-[30px] text-headingColor font-extrabold flex items-center gap-2 text-white">
             Modes of Sessions 
           </h3>
-          <p className="text__para text-black">
-            <p>Online</p>
-            <p>Offline</p>
-          </p>
+          <ol className="text__para text-white">
+            <li>Online</li>
+            <li>Offline</li>
+          </ol>
+
+          <h3 className="text-[25px] leading-[30px] text-headingColor font-extrabold flex items-center gap-2 text-white">
+            Contact: 
+          </h3>
+          <ol className="text__para text-white">
+            <li> Phone: 9876543210</li>
+            <li> Email: ayushsharda@gmail.com</li>
+          </ol>
         </div>
 
         <div className="mt-12">
-          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold">
+          <h3 className="text-[25px] leading-[30px] text-white font-extrabold">
             Education
           </h3>
 
@@ -95,24 +97,12 @@ const DoctorAbout = () => {
                 New Apollo Hospital, New Delhi.
               </p>
             </li>
-            <li className="flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px]">
-              <div>
-                <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
-                  {formatDate("07-04-2010")} - {formatDate("08-07-2013")}
-                </span>
-                <p className="text-[15px] leading-6 font-medium text-white">
-                  PHD in Psychology
-                </p>
-              </div>
-              <p className="text-[14px] leading-5 font-medium text-white">
-                New Apollo Hospital, New Delhi.
-              </p>
-            </li>
+            
           </ul>
         </div>
 
         <div className="mt-12">
-          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold">
+          <h3 className="text-[25px] leading-[30px] text-white font-extrabold">
             Experience
           </h3>
 
@@ -143,7 +133,7 @@ const DoctorAbout = () => {
         </div>
 
         <div className="mt-12">
-          <h3 className="text-[25px] leading-[30px] text-headingColor font-semibold">
+          <h3 className="text-[25px] leading-[30px] text-white font-extrabold">
             Address
           </h3>
 

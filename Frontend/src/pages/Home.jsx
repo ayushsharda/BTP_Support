@@ -33,16 +33,16 @@ const Home = () => {
                   Book from various specialized and experieced mentors on your
                   convenience from any location.
                 </p>
-                <button className="btn">Request an Appointment</button>
+                
               </div>
               {/*    hero counter     */}
               <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
                 <div>
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-white">
-                    20+
+                    20000+
                   </h2>
-                  <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
-                  <p className="text__para text-white">Years of Experience</p>
+                  <span className="w-[100px] h-2 bg-green rounded-full block mt-[-14px]"></span>
+                  <p className="text__para text-white">Stronger People</p>
                 </div>
                 {/* <div>
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-white">
@@ -53,10 +53,10 @@ const Home = () => {
                 </div> */}
                 <div>
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-white">
-                    100%
+                    100+
                   </h2>
-                  <span className="w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]"></span>
-                  <p className="text__para text-white">People Satisfaction</p>
+                  
+                  <p className="text__para text-white">Different Cities</p>
                 </div>
               </div>
             </div>
@@ -80,11 +80,10 @@ const Home = () => {
         <div className="container">
           <div className="lg:w-[470px] mx-auto">
             <h2 className="heading text-white text-white text-center">
-              Providing the best Support services
+              Giving the Strongest Support services
             </h2>
             <p className="text__para text-white text-center">
-              World-class care for everyone. Our Support System offers unmatched,
-              expert mental care.
+            We provide Stronger system to take care of everyone along with expert and well protected care for everyone.
             </p>
           </div>
 
@@ -160,7 +159,7 @@ const Home = () => {
             {/*   feature content   */}
             <div className="xl:w-[670px]">
               <h2 className="heading text-white">
-                Book your appointment <br /> anytime from anywhere.
+                Schedule your appointment <br /> anytime from anywhere.
               </h2>
               <ul className="pl-4">
                 <li className="text__para text-white">
@@ -175,9 +174,7 @@ const Home = () => {
                   time from available slots.
                 </li>
               </ul>
-              <Link to="/">
-                <button className="btn">Learn More</button>
-              </Link>
+    
             </div>
 
             {/*   feature img   */}
@@ -187,10 +184,10 @@ const Home = () => {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-[6px] lg:gap-3">
                     <p className="text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 font-[600]">
-                      Tue, 24
+                      Mon, 20
                     </p>
                     <p className="text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 font-[400]">
-                      10:00AM
+                      11:00AM
                     </p>
                   </div>
                 </div>
@@ -201,7 +198,7 @@ const Home = () => {
                 <div className="flex items-center gap-[6px] lg:gap-[10px] mt-2 lg:mt-[18px]">
                   <img src={avatarIcon} alt="" />
                   <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700]">
-                    Akshat Sahu
+                    Mayank Gupta
                   </h4>
                 </div>
               </div>
@@ -212,13 +209,12 @@ const Home = () => {
       {/*   feature section end   */}
 
       {/*   services section start   */}
-      <section style={{backgroundColor:"#635985"}}>
+      <section style={{backgroundColor:"#443C68"}}>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-white text-center">Our Support services</h2>
+            <h2 className="heading text-white text-center">Support services provided by us</h2>
             <p className="text__para text-white text-center">
-              World-class care for everyone. Our Stronger System offers unmatched,
-              expert health care.
+              We provide Stronger system to take care of everyone along with expert and well protected care for everyone.
             </p>
           </div>
           <ServiceList />
@@ -230,10 +226,9 @@ const Home = () => {
       <section style={{backgroundColor:"#635985"}}>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-white text-center">Our great Mentors</h2>
+            <h2 className="heading text-white text-center">Your Strong Mentors</h2>
             <p className="text__para text-white text-center">
-              World-class care for everyone. Our health System offers unmatched,
-              expert health care.
+            We provide Stronger system to take care of everyone along with expert and well protected care for everyone.
             </p>
           </div>
           <DoctorList />
@@ -242,7 +237,7 @@ const Home = () => {
       {/*   our great doctors   */}
 
       {/*   faq section start   */}
-      <section style={{backgroundColor:"#635985"}}>
+      <section style={{backgroundColor:"#443C68"}}>
         <div className="container">
           <div className="flex justify-between gap-[50px] lg:gap-0">
             <div className="w-1/2 hidden md:block">
@@ -251,7 +246,7 @@ const Home = () => {
 
             <div className="w-full md:w-1/2">
               <h2 className="heading text-white">
-                Most questions by our beloved Stronger People
+                Most questions by our Stronger People
               </h2>
               <FaqList />
             </div>
@@ -266,8 +261,7 @@ const Home = () => {
           <div className="xl:w-[470px] mx-auto">
             <h2 className="heading text-white text-center">What our Stronger People say</h2>
             <p className="text__para text-black text-center">
-              World-class care for everyone. Stronger Together offers unmatched,
-              expert support care.
+            We provide Stronger system to take care of everyone along with expert and well protected care for everyone.
             </p>
           </div>
           <Testimonial />

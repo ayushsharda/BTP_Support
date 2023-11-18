@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <section style={{backgroundColor:"#635985"}}>
+    <section style={{backgroundColor:"#443C68"}}>
       <div className="px-4 mx-auto max-w-screen-md">
-        <h2 className="heading text-center">Contact Us</h2>
+        <h2 className="heading text-center text-white font-extrabold">Contact Us</h2>
         <p className="mb-8 lg:mb-16 font-light text-center text__para text-white">
           Got an issue? Want to send feedback about a feature? Let
           us know.

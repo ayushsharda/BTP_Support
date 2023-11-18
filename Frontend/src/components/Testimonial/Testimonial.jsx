@@ -35,8 +35,8 @@ const Testimonial = () => {
             <div className="flex items-center gap-[13px]">
               <img src={patientAvatar} alt="" />
               <div>
-                <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
-                  Ayush Sharda
+                <h4 className="text-[18px] leading-[30px] font-semibold text-white">
+                  Pranav Gupta
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellowColor w-[18px] h-5" />
@@ -58,8 +58,8 @@ const Testimonial = () => {
             <div className="flex items-center gap-[13px]">
               <img src={patientAvatar} alt="" />
               <div>
-                <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
-                  Ajay Sharma
+                <h4 className="text-[18px] leading-[30px] font-semibold text-white">
+                  Pradhuman
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellowColor w-[18px] h-5" />
@@ -81,8 +81,8 @@ const Testimonial = () => {
             <div className="flex items-center gap-[13px]">
               <img src={patientAvatar} alt="" />
               <div>
-                <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
-                  Aryan Gupta
+                <h4 className="text-[18px] leading-[30px] font-semibold text-white">
+                  Vansh Patel
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellowColor w-[18px] h-5" />
@@ -104,8 +104,8 @@ const Testimonial = () => {
             <div className="flex items-center gap-[13px]">
               <img src={patientAvatar} alt="" />
               <div>
-                <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
-                  Rachit Somani
+                <h4 className="text-[18px] leading-[30px] font-semibold text-white">
+                  Amy Vaishya
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellowColor w-[18px] h-5" />
