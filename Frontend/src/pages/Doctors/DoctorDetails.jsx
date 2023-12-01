@@ -10,7 +10,7 @@ const DoctorDetails = () => {
   const [tab, setTab] = useState("about");
 
   return (
-    <section style={{backgroundColor:"#635985"}}>
+    <section style={{ backgroundColor: "#635985" }}>
       <div className="max-w-[1170px] px-5 mx-auto text-white">
         <div className="grid md:grid-cols-3 gap-[50px] text-white">
           <div className="md:col-span-2 text-white">
@@ -38,6 +38,10 @@ const DoctorDetails = () => {
                 <p className="text__para text-white text-[14px] leading-6 md:text-[15px] lg:max-w-[390px]">
                 We provide Stronger system to take care of everyone along with expert and well protected care for everyone.
                 </p>
+
+                <p className="text__para text-white">
+            You can schedule your appointment using Contact details.
+            </p>
               </div>
             </div>
 

@@ -113,7 +113,7 @@ const MyAccount = () => {
                     "bg-primaryColor text-white font-normal"
                   } p-2 mr-5 px-5 rounded-md text-white font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
                 >
-                  Upcoming Bookings
+                  Impending Sessions
                 </button>
                 <button
                   onClick={() => setTab("settings")}
@@ -131,7 +131,7 @@ const MyAccount = () => {
                     "bg-primaryColor text-white font-normal"
                   } p-2 px-5 rounded-md text-white font-semibold text-[16px] leading-7 border border-solid border-primaryColor`}
                 >
-                  Completed Bookings
+                  Finished Sessions
                 </button>
               </div>
 

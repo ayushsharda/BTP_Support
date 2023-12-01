@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import HashLoader from "react-spinners/HashLoader";
 
 import { BASE_URL } from "../config";
-import signupImg from "../assets/images/signup.gif";
+import signupImg from "../assets/images/signup.jpg";
 import uploadImageToCloudinary from "../utils/uploadCloudinary";
 
 const Signup = () => {
@@ -85,7 +85,7 @@ const Signup = () => {
       <div className="max-w-[1170px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/*   img box   */}
-          <div className="hidden lg:block bg-primaryColor rounded-l-lg">
+          <div className="hidden lg:block  rounded-l-lg">
             <figure className="rounded-l-lg">
               <img
                 src={signupImg}

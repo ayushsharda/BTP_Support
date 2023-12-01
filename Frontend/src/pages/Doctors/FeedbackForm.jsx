@@ -16,8 +16,8 @@ const FeedbackForm = () => {
   return (
     <form action="">
       <div>
-        <h3 className="text-headingColor text-[16px] leading-6 font-semibold mb-4 mt-0">
-          How would you rate the overall experience?*
+        <h3 className="text-white text-[16px] leading-6 font-extrabold mb-4 mt-0">
+          How would you rate the overall experience?
         </h3>
 
         <div>
@@ -51,12 +51,12 @@ const FeedbackForm = () => {
       </div>
 
       <div className="mt-[30px]">
-        <h3 className="text-headingColor text-[16px] leading-6 font-semibold mb-4 mt-0">
-          Share your feedback or suggestions*
+        <h3 className="text-white text-[16px] leading-6 font-extrabold mb-4 mt-0">
+          Share your feedback or suggestions
         </h3>
 
         <textarea
-          className="border border-solid border-[#0066ff34] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md"
+          className="border border-solid border-[#0066ff34] focus:outline outline-primaryColor w-full px-4 py-3 rounded-md text-black"
           rows="5"
           placeholder="Write your message"
           onChange={(e) => setReviewText(e.target.value)}

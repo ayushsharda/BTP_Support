@@ -12,6 +12,8 @@ import ServiceList from "../components/Services/ServiceList";
 import DoctorList from "../components/Doctors/DoctorList";
 import FaqList from "../components/Faq/FaqList";
 import Testimonial from "../components/Testimonial/Testimonial";
+import { doctors } from "../assets/data/doctors";
+import DoctorCard from "../components/Doctors/DoctorCard";
 
 const Home = () => {
   return (
@@ -231,7 +233,11 @@ const Home = () => {
             We provide Stronger system to take care of everyone along with expert and well protected care for everyone.
             </p>
           </div>
-          <DoctorList />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
+      {doctors.slice(0,3).map((doctor) => (
+        <DoctorCard key={doctor.id} doctor={doctor} />
+      ))}
+    </div>
         </div>
       </section>
       {/*   our great doctors   */}

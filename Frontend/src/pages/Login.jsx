@@ -61,7 +61,7 @@ const Login = () => {
 
     <section style={{backgroundColor:"#443C68"}} className="px-5 lg:px-0">
       <div className="w-full max-w-[570px] mx-auto rounded-lg shadow-md md:p-10">
-        <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
+        <h3 className="text-white text-[22px] leading-9 font-bold mb-10">
           Hello! <span className="text-white">Welcome</span> Back
         </h3>
 
@@ -102,7 +102,7 @@ const Login = () => {
 
           <p className="mt-5 text-white text-center">
             Don&apos;t have an account?
-            <Link to="/register" className="text-black font-medium ml-1">
+            <Link to="/register" className="text-black font-medium ml-1 font-extrabold">
               Register
             </Link>
           </p>
